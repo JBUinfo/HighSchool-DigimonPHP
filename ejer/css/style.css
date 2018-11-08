@@ -1,0 +1,62 @@
+@font-face {
+    font-family: digimon;
+    src: url(DigimonBasic.ttf);
+}
+*{
+  font-family: digimon;
+}
+
+.vcenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.body_h100{
+  height: 100vh;
+}
+
+.h100{
+  height: 100%;
+}
+
+.h90{
+  height: 90%;
+}
+
+.h80{
+  height: 80%;
+}
+
+.h70{
+  height: 70%;
+}
+
+.h30{
+  height: 30%;
+}
+
+.h20{
+  height: 20%;
+}
+
+.h10{
+  height: 10%;
+}
+
+.h100_navbar{
+  height: calc(100% - 77px);
+}
+
+.tablan-1{
+  background-color:#f8f9fa;
+}
+
+.tablan-2{
+background-color:#818181;
+}
+
+.tablan-3{
+background-color:#343a40;
+}
